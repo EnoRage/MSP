@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MSP.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MSP">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="18*" />
+
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" BackgroundColor="#00475d">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*" />
+                <ColumnDefinition Width="3*" />
+
+            </Grid.ColumnDefinitions>
+            <Image
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                Scale="0.7"
+                Source="spotify.png" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="5*" />
+                <RowDefinition Height="10*" />
+            </Grid.RowDefinitions>
+            <Label
+                Grid.Row="0"
+                FontFamily="SegoeUI"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="MSP App"
+                TextColor="Black" />
+            <Label
+                Grid.Row="1"
+                FontFamily="SegoeUI"
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Text="Рады послать вас нахуй"
+                TextColor="Black" />
+            <Label
+                Grid.Row="2"
+                FontSize="Small"
+                HorizontalTextAlignment="Center"
+                Text="Первое кроссплатформенное приложение студентов-партнеров Microsoft на базе Xamarin"
+                TextColor="Black" />
+
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Image
+                    BackgroundColor="Black"
+                    HorizontalOptions="Center"
+                    Scale="0.46"
+                    Source="link.png"
+                    VerticalOptions="Center" />
+                <Image
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Scale="0.46"
+                    Source="link.png"
+                    VerticalOptions="Center" />
+                <Image
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    Scale="0.46"
+                    Source="link.png"
+                    VerticalOptions="Center" />
+                <Image
+                    Grid.Row="1"
+                    HorizontalOptions="Center"
+                    Scale="0.46"
+                    Source="link.png"
+                    VerticalOptions="Center" />
+                <Image
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Scale="0.46"
+                    Source="link.png"
+                    VerticalOptions="Center" />
+                <Image
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    Scale="0.46"
+                    Source="link.png"
+                    VerticalOptions="Center" />
+            </Grid>
+            <!--  Titiov XUI  -->
+        </Grid>
+    </Grid>
+
+</ContentPage>
